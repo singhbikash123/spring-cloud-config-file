@@ -1,0 +1,11 @@
+my.greeting: Hello Bikash!!
+app:
+    name: Spring Boot
+    description: ${app.name} application
+my.list.values: one,two,three
+dbvalues: "{connectionString:'cloudConnectionString',userName:'foo',password:'foo'}"
+db:
+  connection: "{connectionString:'http:________',userName:'foo',password:'foo'}"
+  host: "127.0.0.1"
+  port: 1500
+management.endpoints.web.exposure.include: "*"
